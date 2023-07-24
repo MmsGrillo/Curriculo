@@ -1,0 +1,68 @@
+div.container {    
+    margin: auto;
+    min-width: 675px;
+    max-width: 800px;
+    padding: 50px 100px;
+    color: white;
+    background-image: linear-gradient(black, rgb(60, 60, 60));
+    font-family: Arial;
+    text-align: justify;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    color: orange;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 140 , 0);
+    float: left;
+}
+header div{
+    float: right;
+}
+
+section {
+    padding-top: 5px;
+}
+
+section h3{
+    color: orange;
+}
+
+footer {
+    padding-top: 20px;
+    width: 100%;
+    height: 120px;
+}
+
+footer img{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin: auto;
+}
